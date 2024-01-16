@@ -1,0 +1,42 @@
+Delay Analysis for ADDER :
+
+tpd                 =  1.06154e-09 >> Input = A0 , Output = Y0 
+tpd                 =  1.07017e-09 >> Input = A0 , Output = Y1 
+tpd                 =  1.06863e-09 >> Input = A0 , Output = Y2 
+tpd                 =  1.04100e-09 >> Input = A0 , Output = Y3 
+
+tpd                 =  1.06154e-09 >> Input = A1 , Output = Y0 
+tpd                 =  1.07017e-09 >> Input = A1 , Output = Y1 
+tpd                 =  1.06863e-09 >> Input = A1 , Output = Y2 
+tpd                 =  1.04100e-09 >> Input = A1 , Output = Y3 
+
+tpd                 =  1.06154e-09 >> Input = A2 , Output = Y0 
+tpd                 =  1.07017e-09 >> Input = A2 , Output = Y1 
+tpd                 =  1.06863e-09 >> Input = A2 , Output = Y2 
+tpd                 =  1.04100e-09 >> Input = A2 , Output = Y3 
+
+tpd                 =  1.06154e-09 >> Input = A3 , Output = Y0 
+tpd                 =  1.07017e-09 >> Input = A3 , Output = Y1 
+tpd                 =  1.06863e-09 >> Input = A3 , Output = Y2 
+tpd                 =  1.04100e-09 >> Input = A3 , Output = Y3 
+
+tpd                 =  1.02531e-09 >> Input = B0 , Output = Y0 
+tpd                 =  1.03106e-09 >> Input = B0 , Output = Y1 
+tpd                 =  1.02193e-09 >> Input = B0 , Output = Y2 
+tpd                 =  9.90812e-10 >> Input = B0 , Output = Y3 
+
+tpd                 =  1.02531e-09 >> Input = B1 , Output = Y0 
+tpd                 =  1.03106e-09 >> Input = B1 , Output = Y1 
+tpd                 =  1.02193e-09 >> Input = B1 , Output = Y2 
+tpd                 =  9.90812e-10 >> Input = B1 , Output = Y3 
+
+tpd                 =  1.02531e-09 >> Input = B2 , Output = Y0 
+tpd                 =  1.03106e-09 >> Input = B2 , Output = Y1 
+tpd                 =  1.02193e-09 >> Input = B2 , Output = Y2 
+tpd                 =  9.90812e-10 >> Input = B2 , Output = Y3 
+
+tpd                 =  1.02531e-09 >> Input = B3 , Output = Y0 
+tpd                 =  1.03106e-09 >> Input = B3 , Output = Y1 
+tpd                 =  1.02193e-09 >> Input = B3 , Output = Y2 
+tpd                 =  9.90812e-10 >> Input = B3 , Output = Y3 
+

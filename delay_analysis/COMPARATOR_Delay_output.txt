@@ -1,0 +1,32 @@
+Delay Analysis for COMPARATOR :
+
+tpd                 =  1.33683e-09	 >> Input = A0 , Output = Y0 	(A>B) 
+tpd                 =  1.33683e-09	 >> Input = A1 , Output = Y0 	(A>B) 
+tpd                 =  1.33683e-09	 >> Input = A2 , Output = Y0 	(A>B) 
+tpd                 =  1.33683e-09	 >> Input = A3 , Output = Y0 	(A>B) 
+
+tpd                 =  1.44843e-09	 >> Input = B0 , Output = Y0 	(A>B) 
+tpd                 =  1.44843e-09	 >> Input = B1 , Output = Y0 	(A>B) 
+tpd                 =  1.44843e-09	 >> Input = B2 , Output = Y0 	(A>B) 
+tpd                 =  1.44843e-09	 >> Input = B3 , Output = Y0 	(A>B) 
+
+tpd                 =  1.97206e-09	 >> Input = A0 , Output = Y1 	(A=B) 
+tpd                 =  1.97206e-09	 >> Input = A1 , Output = Y1 	(A=B) 
+tpd                 =  1.97206e-09	 >> Input = A2 , Output = Y1 	(A=B) 
+tpd                 =  1.97206e-09	 >> Input = A3 , Output = Y1 	(A=B) 
+
+tpd                 =  1.95243e-09	 >> Input = B0 , Output = Y1 	(A=B) 
+tpd                 =  1.95243e-09	 >> Input = B1 , Output = Y1 	(A=B) 
+tpd                 =  1.95243e-09	 >> Input = B2 , Output = Y1 	(A=B) 
+tpd                 =  1.95243e-09	 >> Input = B3 , Output = Y1 	(A=B) 
+
+tpd                 =  1.38295e-09	 >> Input = A0 , Output = Y2 	(A<B) 
+tpd                 =  1.38295e-09	 >> Input = A1 , Output = Y2 	(A<B) 
+tpd                 =  1.38295e-09	 >> Input = A2 , Output = Y2 	(A<B) 
+tpd                 =  1.38295e-09	 >> Input = A3 , Output = Y2 	(A<B) 
+
+tpd                 =  1.22784e-09	 >> Input = B0 , Output = Y2 	(A<B) 
+tpd                 =  1.22784e-09	 >> Input = B1 , Output = Y2 	(A<B) 
+tpd                 =  1.22784e-09	 >> Input = B2 , Output = Y2 	(A<B) 
+tpd                 =  1.22784e-09	 >> Input = B3 , Output = Y2 	(A<B) 
+

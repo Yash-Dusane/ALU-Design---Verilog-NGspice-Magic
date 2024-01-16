@@ -1,0 +1,42 @@
+Delay Analysis for 4 BIT AND :
+
+tpd                 =  6.24154e-10	 >> Input = A0 , Output = Y0 
+tpd                 =  6.35254e-10	 >> Input = A0 , Output = Y1 
+tpd                 =  6.49606e-10	 >> Input = A0 , Output = Y2 
+tpd                 =  6.40244e-10	 >> Input = A0 , Output = Y3 
+
+tpd                 =  6.24154e-10	 >> Input = A1 , Output = Y0 
+tpd                 =  6.35254e-10	 >> Input = A1 , Output = Y1 
+tpd                 =  6.49606e-10	 >> Input = A1 , Output = Y2 
+tpd                 =  6.40244e-10	 >> Input = A1 , Output = Y3 
+
+tpd                 =  6.24154e-10	 >> Input = A2 , Output = Y0 
+tpd                 =  6.35254e-10	 >> Input = A2 , Output = Y1 
+tpd                 =  6.49606e-10	 >> Input = A2 , Output = Y2 
+tpd                 =  6.40244e-10	 >> Input = A2 , Output = Y3 
+
+tpd                 =  6.24154e-10	 >> Input = A3 , Output = Y0 
+tpd                 =  6.35254e-10	 >> Input = A3 , Output = Y1 
+tpd                 =  6.49606e-10	 >> Input = A3 , Output = Y2 
+tpd                 =  6.40244e-10	 >> Input = A3 , Output = Y3 
+
+tpd                 =  6.43858e-10	 >> Input = B0 , Output = Y0 
+tpd                 =  6.55750e-10	 >> Input = B0 , Output = Y1 
+tpd                 =  6.68333e-10	 >> Input = B0 , Output = Y2 
+tpd                 =  6.58743e-10	 >> Input = B0 , Output = Y3 
+
+tpd                 =  6.43858e-10	 >> Input = B1 , Output = Y0 
+tpd                 =  6.55750e-10	 >> Input = B1 , Output = Y1 
+tpd                 =  6.68333e-10	 >> Input = B1 , Output = Y2 
+tpd                 =  6.58743e-10	 >> Input = B1 , Output = Y3 
+
+tpd                 =  6.43858e-10	 >> Input = B2 , Output = Y0 
+tpd                 =  6.55750e-10	 >> Input = B2 , Output = Y1 
+tpd                 =  6.68333e-10	 >> Input = B2 , Output = Y2 
+tpd                 =  6.58743e-10	 >> Input = B2 , Output = Y3 
+
+tpd                 =  6.43858e-10	 >> Input = B3 , Output = Y0 
+tpd                 =  6.55750e-10	 >> Input = B3 , Output = Y1 
+tpd                 =  6.68333e-10	 >> Input = B3 , Output = Y2 
+tpd                 =  6.58743e-10	 >> Input = B3 , Output = Y3 
+

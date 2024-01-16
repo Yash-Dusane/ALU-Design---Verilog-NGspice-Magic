@@ -1,0 +1,10 @@
+.subckt ENABLE E A0 A1 A2 A3 Y0 Y1 Y2 Y3 VDD GND
+
+    .include GATES.sub
+
+    X1 A0 E Y0 VDD GND AND
+    X2 A1 E Y1 VDD GND AND
+    X3 A2 E Y2 VDD GND AND
+    X4 A3 E Y3 VDD GND AND
+
+.ends ENABLE

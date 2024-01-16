@@ -1,0 +1,80 @@
+.subckt NOT IN OUT VDD GND
+
+    Mn3 OUT IN GND GND CMOSN W = {wn1} L = {ln1}
+    + AS = {5*wn1*⋋} PS = {10*⋋ + 2*wn1} AD = {5*wn1*⋋} PD = {10*⋋ + 2*wn1}
+
+    Mp3 OUT IN VDD VDD CMOSP W = {wp1} L = {lp1}
+    + AS = {5*wp1*⋋} PS = {10*⋋ + 2*wp1} AD = {5*wp1*⋋} PD = {10*⋋ + 2*wp1}
+
+.ends NOT
+
+
+.subckt NAND A B OUT VDD GND
+
+    Mn1 OUT A N1 GND CMOSN W = {wn1} L = {ln1}
+    + AS = {5*wn1*⋋} PS = {10*⋋ + 2*wn1} AD = {5*wn1*⋋} PD = {10*⋋ + 2*wn1}
+
+    Mn2 N1 B GND GND CMOSN W = {wn2} L = {ln2}
+    + AS = {5*wn2*⋋} PS = {10*⋋ + 2*wn2} AD = {5*wn2*⋋} PD = {10*⋋ + 2*wn2}
+
+    Mp1 OUT A VDD VDD CMOSP W = {wp1} L = {lp1}
+    + AS = {5*wp1*⋋} PS = {10*⋋ + 2*wp1} AD = {5*wp1*⋋} PD = {10*⋋ + 2*wp1}
+
+    Mp2 OUT B VDD VDD CMOSP W = {wp2} L = {lp2}
+    + AS = {5*wp2*⋋} PS = {10*⋋ + 2*wp2} AD = {5*wp2*⋋} PD = {10*⋋ + 2*wp2}
+
+.ends NAND
+
+
+.subckt NOR A B OUT VDD GND
+
+    Mn1 OUT A GND GND CMOSN W = {wn1} L = {ln1}
+    + AS = {5*wn1*⋋} PS = {10*⋋ + 2*wn1} AD = {5*wn1*⋋} PD = {10*⋋ + 2*wn1}
+
+    Mn2 OUT B GND GND CMOSN W = {wn2} L = {ln2}
+    + AS = {5*wn2*⋋} PS = {10*⋋ + 2*wn2} AD = {5*wn2*⋋} PD = {10*⋋ + 2*wn2}
+
+    Mp1 OUT A V1 VDD CMOSP W = {wp1} L = {lp1}
+    + AS = {5*wp1*⋋} PS = {10*⋋ + 2*wp1} AD = {5*wp1*⋋} PD = {10*⋋ + 2*wp1}
+
+    Mp2 V1 B VDD VDD CMOSP W = {wp2} L = {lp2}
+    + AS = {5*wp2*⋋} PS = {10*⋋ + 2*wp2} AD = {5*wp2*⋋} PD = {10*⋋ + 2*wp2}
+
+.ends NOR
+
+
+.subckt AND A B OUT VDD GND
+
+    X1 A B t1 VDD GND NAND
+    X2 t1 OUT VDD GND NOT
+
+.ends AND
+
+
+.subckt OR A B OUT VDD GND
+
+    X1 A B t1 VDD GND NOR
+    X2 t1 OUT VDD GND NOT
+
+.ends OR
+
+
+.subckt XOR A B OUT VDD GND
+
+    X1 A B t1 VDD GND NAND
+    X2 A t1 t2 VDD GND NAND
+    X3 B t1 t3 VDD GND NAND
+    X4 t3 t2 OUT VDD GND NAND
+
+.ends XOR
+
+
+.subckt XNOR A B OUT VDD GND
+
+    X1 A B t1 VDD GND NAND
+    X2 A t1 t2 VDD GND NAND
+    X3 B t1 t3 VDD GND NAND
+    X4 t3 t2 t4 VDD GND NAND
+    Xn t4 OUT VDD GND NOT
+
+.ends XNOR
